@@ -1,0 +1,11 @@
+@back Cafe
+
+@char Anna
+Hello World!
+
+@char Anna.Default1
+Anna: Hello!
+
+@hide Anna
+
+@stop

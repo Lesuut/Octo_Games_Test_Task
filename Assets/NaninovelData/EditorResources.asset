@@ -166,3 +166,30 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Scripts
+    Resources:
+    - name: Main
+      pathPrefix: Scripts
+      guid: e604aef9aff818e4194c7b588798e7c4
+  - Id: Characters/d2be7e29-c084-4d1b-97f0-19e810fb6907
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Anna
+      guid: 7f66be56a179d994ba5de9b5ec2ea21e
+    - name: Smile
+      pathPrefix: Characters/Anna
+      guid: ba0e35fedf13d974dacd4b3e3a57c2ef
+    - name: Angry
+      pathPrefix: Characters/Anna
+      guid: 1f682102cf2466f458857868b25ca1b3
+    - name: Cry
+      pathPrefix: Characters/Anna
+      guid: cf4e87f96a1713c4891884f94be9ec5f
+    - name: Default1
+      pathPrefix: Characters/Anna
+      guid: c1b6a87dddb8c5b4caa7678e65285220
+  - Id: Backgrounds/224c6e7e-6fc5-4bd1-9e98-0f3e6408a5ea
+    Resources:
+    - name: Cafe
+      pathPrefix: Backgrounds/MainBackground
+      guid: abb95d01c66e6554f811081534c3da90
