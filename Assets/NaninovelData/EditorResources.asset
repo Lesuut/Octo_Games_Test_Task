@@ -176,10 +176,10 @@ MonoBehaviour:
       guid: e2e506ddc6bed7e4e95c69a7a5e49a94
   - Id: Characters/d2be7e29-c084-4d1b-97f0-19e810fb6907
     Resources:
-    - name: Def
+    - name: Default
       pathPrefix: Characters/Anna
       guid: 7f66be56a179d994ba5de9b5ec2ea21e
-    - name: Def1
+    - name: Default1
       pathPrefix: Characters/Anna
       guid: c1b6a87dddb8c5b4caa7678e65285220
     - name: Happy
@@ -193,14 +193,17 @@ MonoBehaviour:
       guid: cf4e87f96a1713c4891884f94be9ec5f
   - Id: Backgrounds/224c6e7e-6fc5-4bd1-9e98-0f3e6408a5ea
     Resources:
-    - name: Cafe
+    - name: Base
       pathPrefix: Backgrounds/MainBackground
       guid: abb95d01c66e6554f811081534c3da90
-    - name: Cafe1
-      pathPrefix: Backgrounds/MainBackground
-      guid: a3ad91a11fb91684b934155db4a23380
   - Id: CharacterAvatars
-    Resources: []
+    Resources:
+    - name: Anna
+      pathPrefix: CharacterAvatars
+      guid: b81605beb07737547b1871545fa1637f
+    - name: Sonya
+      pathPrefix: CharacterAvatars
+      guid: e4e8b5c2e069d69468c9cf64ec389886
   - Id: Characters/91a124cf-e8ba-42e5-8fd0-dbc15d8057d9
     Resources:
     - name: Def
@@ -218,3 +221,13 @@ MonoBehaviour:
     - name: Cry
       pathPrefix: Characters/Sonya
       guid: 32284aa33b2b7c143b470e80279bbb11
+  - Id: Backgrounds/fa9d4202-8d1f-4653-be4b-9acc818e1a7d
+    Resources:
+    - name: A
+      pathPrefix: Backgrounds/Cafe
+      guid: a3ad91a11fb91684b934155db4a23380
+  - Id: Backgrounds/598b37f6-21d5-4c7d-8029-af69571192f7
+    Resources:
+    - name: Book
+      pathPrefix: Backgrounds/Items
+      guid: fc4259b992b3b9b46a5183a9026c109a

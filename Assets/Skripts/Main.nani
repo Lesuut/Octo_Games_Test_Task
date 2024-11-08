@@ -1,17 +1,23 @@
-@back Cafe
+@printer Wide
+
+@back Base
 
 @input PlayerName summary:"Choose your name."
 @stop
 You can call me {PlayerName}.
 
-@char Anna pos:25
-Anna: Hello Im Anna!
+@char Anna pos:25 avatar:Anna
+Anna: Hello Im {PlayerName}!
 @char Anna.Happy pose:Test
 
-@char Sonya pos:75
+@back Book id:Items pose:Base
+
+@char Sonya pos:75 avatar:Sonya
 Sonya: Hello Im Sonya!
 
 @print text:"Lorem ipsum dolor sit amet."
+
+@back Cafe.2
 
 @goto Skript001
 

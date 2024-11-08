@@ -94,7 +94,7 @@ MonoBehaviour:
         width: 1
         height: 1
       BakedLookDirection: 1
-      DisplayName: 
+      DisplayName: '{PlayerName}'
       UseCharacterColor: 1
       NameColor: {r: 0.2971698, g: 0.506279, b: 1, a: 1}
       MessageColor: {r: 0.8537736, g: 0.89706963, b: 1, a: 1}
@@ -117,7 +117,7 @@ MonoBehaviour:
           position: {x: -5.76, y: -11.880001, z: 0}
           rotation: {x: 0, y: 0, z: 0, w: 0}
           scale: {x: 2, y: 2, z: 2}
-          tintColor: {r: 0, g: 0, b: 0, a: 0}
+          tintColor: {r: 0.31463474, g: 0.6320754, b: 0.09242612, a: 0.6156863}
           lookDirection: 0
         overriddenProperties:
         - scale
