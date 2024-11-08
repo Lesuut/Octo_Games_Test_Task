@@ -2,6 +2,8 @@
 
 @back Base
 
+@goto Skript002
+
 @input PlayerName summary:"Choose your name."
 @stop
 You can call me {PlayerName}.
@@ -10,7 +12,9 @@ You can call me {PlayerName}.
 Anna: Hello Im {PlayerName}!
 @char Anna.Happy pose:Test
 
-@back Book id:Items pose:Base
+@back Book.Swirl params:25 id:Items pose:Base
+
+@spawn ShakeCharacter params:Anna
 
 @char Sonya pos:75 avatar:Sonya
 Sonya: Hello Im Sonya!

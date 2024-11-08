@@ -1,0 +1,52 @@
+@hideAll
+
+@back Base
+
+@char Chan pos:10,0 time:1
+
+@char Chan.Pose1 pos:50,-10 time:1
+Pose1
+
+@char Chan.Pose2 pos:90,-20 time:1
+Pose2
+
+@char Chan.Pose3 pos:40,0 time:1
+Pose3
+
+@char Chan.Pose4
+Pose4
+
+@char Chan.Pose5
+Pose5
+
+@char Chan.Pose6
+Pose6
+
+@char Chan.Pose7
+Pose7
+
+@char Chan.Pose8
+Pose8
+
+@char Chan.Pose9
+Pose9
+
+@char Chan.Pose10
+Pose10
+
+@char Chan.Pose11
+Pose11
+
+@char Chan.Pose12
+Pose12
+
+@char Chan.Pose13
+Pose13
+
+@char Chan.Pose14
+Pose14
+
+@char Chan.Pose15
+Pose15
+
+@stop

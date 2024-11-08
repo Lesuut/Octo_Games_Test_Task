@@ -174,6 +174,9 @@ MonoBehaviour:
     - name: Skript001
       pathPrefix: Scripts
       guid: e2e506ddc6bed7e4e95c69a7a5e49a94
+    - name: Skript002
+      pathPrefix: Scripts
+      guid: d1a18f64cc8ee514895a3fab6144afd5
   - Id: Characters/d2be7e29-c084-4d1b-97f0-19e810fb6907
     Resources:
     - name: Default
@@ -231,3 +234,10 @@ MonoBehaviour:
     - name: Book
       pathPrefix: Backgrounds/Items
       guid: fc4259b992b3b9b46a5183a9026c109a
+  - Id: Audio
+    Resources: []
+  - Id: Characters/71012151-c8db-417f-be81-a24db209894f
+    Resources:
+    - name: Chan
+      pathPrefix: Characters
+      guid: 412b92d4feeb9c548bfa98f62c4d1022

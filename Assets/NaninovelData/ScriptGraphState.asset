@@ -13,7 +13,21 @@ MonoBehaviour:
   m_Name: ScriptGraphState
   m_EditorClassIdentifier: 
   NodesState:
+  - scriptName: Main
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
   - scriptName: Skript001
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - scriptName: Skript002
     position:
       serializedVersion: 2
       x: 0
