@@ -1,11 +1,18 @@
 @back Cafe
 
-@char Anna
-Hello World!
+@input PlayerName summary:"Choose your name."
+@stop
+You can call me {PlayerName}.
 
-@char Anna.Default1
-Anna: Hello!
+@char Anna pos:25
+Anna: Hello Im Anna!
+@char Anna.Happy pose:Test
 
-@hide Anna
+@char Sonya pos:75
+Sonya: Hello Im Sonya!
+
+@print text:"Lorem ipsum dolor sit amet."
+
+@goto Skript001
 
 @stop

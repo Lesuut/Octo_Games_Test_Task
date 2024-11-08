@@ -66,6 +66,7 @@ MonoBehaviour:
   Metadata:
     ids:
     - Anna
+    - Sonya
     metas:
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -94,9 +95,63 @@ MonoBehaviour:
         height: 1
       BakedLookDirection: 1
       DisplayName: 
-      UseCharacterColor: 0
-      NameColor: {r: 1, g: 1, b: 1, a: 1}
-      MessageColor: {r: 1, g: 1, b: 1, a: 1}
+      UseCharacterColor: 1
+      NameColor: {r: 0.2971698, g: 0.506279, b: 1, a: 1}
+      MessageColor: {r: 0.8537736, g: 0.89706963, b: 1, a: 1}
+      HighlightWhenSpeaking: 0
+      HighlightCharacterCount: 0
+      SpeakingPose: 
+      NotSpeakingPose: 
+      PlaceOnTop: 1
+      HighlightDuration: 0.35
+      HighlightEasing: 1
+      MessageSound: 
+      MessageSoundPlayback: 0
+      VoiceSource: {fileID: 0}
+      LinkedPrinter: 
+      Poses:
+      - name: Test
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: -5.76, y: -11.880001, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 2, y: 2, z: 2}
+          tintColor: {r: 0, g: 0, b: 0, a: 0}
+          lookDirection: 0
+        overriddenProperties:
+        - scale
+        - position
+    - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: Characters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 91a124cf-e8ba-42e5-8fd0-dbc15d8057d9
+      customData:
+        rid: -2
+      Pivot: {x: 0.5, y: 0}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomTextureShader: {fileID: 0}
+      CustomSpriteShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      RenderRectangle:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      BakedLookDirection: 1
+      DisplayName: 
+      UseCharacterColor: 1
+      NameColor: {r: 0.4374515, g: 0.7735849, b: 0.1715023, a: 1}
+      MessageColor: {r: 0.8873165, g: 1, b: 0.7971698, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
       SpeakingPose: 

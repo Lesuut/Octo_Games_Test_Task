@@ -171,12 +171,18 @@ MonoBehaviour:
     - name: Main
       pathPrefix: Scripts
       guid: e604aef9aff818e4194c7b588798e7c4
+    - name: Skript001
+      pathPrefix: Scripts
+      guid: e2e506ddc6bed7e4e95c69a7a5e49a94
   - Id: Characters/d2be7e29-c084-4d1b-97f0-19e810fb6907
     Resources:
-    - name: Default
+    - name: Def
       pathPrefix: Characters/Anna
       guid: 7f66be56a179d994ba5de9b5ec2ea21e
-    - name: Smile
+    - name: Def1
+      pathPrefix: Characters/Anna
+      guid: c1b6a87dddb8c5b4caa7678e65285220
+    - name: Happy
       pathPrefix: Characters/Anna
       guid: ba0e35fedf13d974dacd4b3e3a57c2ef
     - name: Angry
@@ -185,11 +191,30 @@ MonoBehaviour:
     - name: Cry
       pathPrefix: Characters/Anna
       guid: cf4e87f96a1713c4891884f94be9ec5f
-    - name: Default1
-      pathPrefix: Characters/Anna
-      guid: c1b6a87dddb8c5b4caa7678e65285220
   - Id: Backgrounds/224c6e7e-6fc5-4bd1-9e98-0f3e6408a5ea
     Resources:
     - name: Cafe
       pathPrefix: Backgrounds/MainBackground
       guid: abb95d01c66e6554f811081534c3da90
+    - name: Cafe1
+      pathPrefix: Backgrounds/MainBackground
+      guid: a3ad91a11fb91684b934155db4a23380
+  - Id: CharacterAvatars
+    Resources: []
+  - Id: Characters/91a124cf-e8ba-42e5-8fd0-dbc15d8057d9
+    Resources:
+    - name: Def
+      pathPrefix: Characters/Sonya
+      guid: dbb3ad12421ba3942b7cf80d71df8d59
+    - name: Def1
+      pathPrefix: Characters/Sonya
+      guid: 1e33ae4a7dea38b4bbf4fe9ecfdb445c
+    - name: Happy
+      pathPrefix: Characters/Sonya
+      guid: 1de38dd49bea91d439362affd49dd5f8
+    - name: Angry
+      pathPrefix: Characters/Sonya
+      guid: ccb559b34ae3ea54489e4cd5b3fd6a79
+    - name: Cry
+      pathPrefix: Characters/Sonya
+      guid: 32284aa33b2b7c143b470e80279bbb11
