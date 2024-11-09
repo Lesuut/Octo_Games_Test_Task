@@ -1,8 +1,7 @@
 @printer Wide
-
 @back Level_0 id:Backrooms
-
 @bgm Level_0 loop:true
+@showUI QuestLog
 
 @char Anna.Default pose:Zoom pos:50,-75 avatar:Anna
 
@@ -12,5 +11,7 @@ Anna: What's your name?
 My name is {Player_Name}
 
 Anna: Nice to meet you {Player_Name}, let's find a way out together
+
+@set Quest="Find a way out!"
 
 @stop

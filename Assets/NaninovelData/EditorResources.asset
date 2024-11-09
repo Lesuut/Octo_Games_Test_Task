@@ -166,6 +166,9 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: QuestLog
+      pathPrefix: UI
+      guid: 55f73875c05b6c14faf6a463c0ab5a7d
   - Id: Scripts
     Resources:
     - name: MainStart
@@ -174,10 +177,10 @@ MonoBehaviour:
     - name: Title
       pathPrefix: Scripts
       guid: 2468e01a78627e74aaf018723e8a4188
-    - name: Quest1
+    - name: Level_0
       pathPrefix: Scripts
       guid: 3c35fd1dcba98d84b957f4bf7bbd32c5
-    - name: MiniGameQuest
+    - name: Level_Hub
       pathPrefix: Scripts
       guid: 63bac1ba72c8136438308d9c149e8d76
   - Id: Characters/d2be7e29-c084-4d1b-97f0-19e810fb6907

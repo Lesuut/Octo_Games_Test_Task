@@ -15,3 +15,5 @@ MonoBehaviour:
   PredefinedVariables:
   - name: Player_Name
     value: '"Player"'
+  - name: Quest
+    value: '""'

@@ -1,5 +1,4 @@
 @back Level_0 id:Backrooms
-
 @bgm Level_0 loop:true
 
 @input Player_Name summary:"Choose your name."
@@ -8,7 +7,7 @@
 Hello {Player_Name}!
 
 @char Anna.Angry pos:50,200
-@bgm Fall_Sound loop:false volume:0.25
+@bgm Fall_Sound loop:false volume:0.1
 @char Anna pos:50,-20 time:0.5
 ...
 @char Anna.Default pose:Zoom pos:50,-75
