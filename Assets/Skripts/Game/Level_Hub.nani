@@ -1,3 +1,23 @@
+@hide Anna
+@printer Wide
+@back Level_Hub id:Backrooms
+@bgm Level_Hub loop:true
+@showUI QuestLog
 
+@char Anna.Default1 look:Left pose:Zoom pos:-100,-75 avatar:Anna time:0
+@char Anna pos:50,-75 look:Right time:1.5
+@char Anna.Default
+
+Anna: Where are we?
+
+I have no idea.
+
+@char Chan.Pose1 avatar:Chan pos:150,-35 time:0
+@char Chan.Pose1 pos:75,-35 time:1.5
+@char Anna pos:25,-75 look:Left time:1.5
+
+Chan: Hi!
+
+@char Chan.Pose2 pose:Zoom pos:75,-55 time:0.5
 
 @stop
