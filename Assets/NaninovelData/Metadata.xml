@@ -47,6 +47,7 @@
         &lt;Type&gt;Backgrounds&lt;/Type&gt;
         &lt;Appearances&gt;
           &lt;string&gt;Level_0&lt;/string&gt;
+          &lt;string&gt;Level_Hub&lt;/string&gt;
         &lt;/Appearances&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
@@ -298,6 +299,10 @@
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;Level_Hub&lt;/Path&gt;
+        &lt;Type&gt;Scripts&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;Default&lt;/Path&gt;
         &lt;Type&gt;Characters/Anna&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -375,6 +380,10 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;Level_0&lt;/Path&gt;
+        &lt;Type&gt;Backgrounds/Backrooms&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;Level_Hub&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/Backrooms&lt;/Type&gt;
       &lt;/Resource&gt;
     &lt;/Resources&gt;
