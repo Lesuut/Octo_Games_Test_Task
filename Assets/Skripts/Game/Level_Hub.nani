@@ -13,11 +13,21 @@ Anna: Where are we?
 I have no idea.
 
 @char Chan.Pose1 avatar:Chan pos:150,-35 time:0
-@char Chan.Pose1 pos:75,-35 time:1.5
-@char Anna pos:25,-75 look:Left time:1.5
+@char Chan.Pose1 pos:75,-35 time:1.5 wait:false
+@char Anna pos:25,-75 look:Left time:1.5 wait:false
 
-Chan: Hi!
+@char Chan.Pose2 pose:Zoom pos:75,-30 time:0.5
+Chan.Pose3: Hi!
 
-@char Chan.Pose2 pose:Zoom pos:75,-55 time:0.5
+Chan.Pose4: What are you doing here?
+
+Anna: We don't know how to get out of here
+
+Chan.Pose5: Lucky you met me!
+Chan.Pose6: I'll help you get out, but help me with something.
+
+And what do you need help with?
+
+Chan.Pose7: Do this assignment for me!
 
 @stop
