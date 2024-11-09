@@ -111,18 +111,17 @@ MonoBehaviour:
       VoiceSource: {fileID: 0}
       LinkedPrinter: 
       Poses:
-      - name: Test
+      - name: Zoom
         actorState:
           appearance: 
           visible: 0
-          position: {x: -5.76, y: -11.880001, z: 0}
+          position: {x: 0, y: 0, z: 0}
           rotation: {x: 0, y: 0, z: 0, w: 0}
           scale: {x: 2, y: 2, z: 2}
-          tintColor: {r: 0.31463474, g: 0.6320754, b: 0.09242612, a: 0.6156863}
+          tintColor: {r: 0, g: 0, b: 0, a: 0}
           lookDirection: 0
         overriddenProperties:
         - scale
-        - position
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -206,7 +205,18 @@ MonoBehaviour:
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
       LinkedPrinter: 
-      Poses: []
+      Poses:
+      - name: Zoom
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 2, y: 2, z: 2}
+          tintColor: {r: 0, g: 0, b: 0, a: 0}
+          lookDirection: 0
+        overriddenProperties:
+        - scale
   AvatarLoader:
     PathPrefix: CharacterAvatars
     ProviderTypes:

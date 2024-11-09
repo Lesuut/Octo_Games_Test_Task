@@ -168,15 +168,12 @@ MonoBehaviour:
       guid: dd85ce99288c2f8488447fa511b1c0d6
   - Id: Scripts
     Resources:
-    - name: Main
+    - name: MainStart
       pathPrefix: Scripts
       guid: e604aef9aff818e4194c7b588798e7c4
-    - name: Skript001
+    - name: Title
       pathPrefix: Scripts
-      guid: e2e506ddc6bed7e4e95c69a7a5e49a94
-    - name: Skript002
-      pathPrefix: Scripts
-      guid: d1a18f64cc8ee514895a3fab6144afd5
+      guid: 2468e01a78627e74aaf018723e8a4188
   - Id: Characters/d2be7e29-c084-4d1b-97f0-19e810fb6907
     Resources:
     - name: Default
@@ -196,9 +193,9 @@ MonoBehaviour:
       guid: cf4e87f96a1713c4891884f94be9ec5f
   - Id: Backgrounds/224c6e7e-6fc5-4bd1-9e98-0f3e6408a5ea
     Resources:
-    - name: Base
+    - name: MainMenu
       pathPrefix: Backgrounds/MainBackground
-      guid: abb95d01c66e6554f811081534c3da90
+      guid: bc3727994349a3844aeb8ff1bf0bcbe9
   - Id: CharacterAvatars
     Resources:
     - name: Anna
@@ -207,6 +204,9 @@ MonoBehaviour:
     - name: Sonya
       pathPrefix: CharacterAvatars
       guid: e4e8b5c2e069d69468c9cf64ec389886
+    - name: Chan
+      pathPrefix: CharacterAvatars
+      guid: fda1d9ddc00070e4b9a34fe2e39ed33c
   - Id: Characters/91a124cf-e8ba-42e5-8fd0-dbc15d8057d9
     Resources:
     - name: Def
@@ -224,16 +224,6 @@ MonoBehaviour:
     - name: Cry
       pathPrefix: Characters/Sonya
       guid: 32284aa33b2b7c143b470e80279bbb11
-  - Id: Backgrounds/fa9d4202-8d1f-4653-be4b-9acc818e1a7d
-    Resources:
-    - name: A
-      pathPrefix: Backgrounds/Cafe
-      guid: a3ad91a11fb91684b934155db4a23380
-  - Id: Backgrounds/598b37f6-21d5-4c7d-8029-af69571192f7
-    Resources:
-    - name: Book
-      pathPrefix: Backgrounds/Items
-      guid: fc4259b992b3b9b46a5183a9026c109a
   - Id: Audio
     Resources: []
   - Id: Characters/71012151-c8db-417f-be81-a24db209894f
