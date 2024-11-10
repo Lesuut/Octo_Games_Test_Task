@@ -1,0 +1,7 @@
+@back Level_0 id:Backrooms
+
+@showUI Inventory
+
+@addItem Book
+
+@stop

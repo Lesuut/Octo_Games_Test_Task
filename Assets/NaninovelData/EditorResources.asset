@@ -169,6 +169,9 @@ MonoBehaviour:
     - name: QuestLog
       pathPrefix: UI
       guid: 55f73875c05b6c14faf6a463c0ab5a7d
+    - name: Inventory
+      pathPrefix: UI
+      guid: a9fb1e769494044469b5758c99195b04
   - Id: Scripts
     Resources:
     - name: MainStart
@@ -183,6 +186,9 @@ MonoBehaviour:
     - name: Level_Hub
       pathPrefix: Scripts
       guid: 63bac1ba72c8136438308d9c149e8d76
+    - name: MainGameStart
+      pathPrefix: Scripts
+      guid: c1aa50b9365cc5e4a88c5eff3803d31d
   - Id: Characters/d2be7e29-c084-4d1b-97f0-19e810fb6907
     Resources:
     - name: Default
@@ -260,3 +266,8 @@ MonoBehaviour:
     - name: Level_Hub
       pathPrefix: Backgrounds/Backrooms
       guid: 4de7fcbfe49321146af804478e1880e0
+  - Id: Inventory
+    Resources:
+    - name: Book
+      pathPrefix: Inventory
+      guid: 3006041c228b5b545a780d1c000e011b
