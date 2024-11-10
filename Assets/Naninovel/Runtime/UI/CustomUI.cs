@@ -10,6 +10,7 @@ using UnityEngine;
 namespace Naninovel.UI
 {
     /// <summary>
+    ///
     /// An implementation of <see cref="IManagedUI"/>, that
     /// can be used to create custom user managed UI objects.
     /// </summary>

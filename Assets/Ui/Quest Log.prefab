@@ -67,10 +67,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 46
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 80
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Test
+  m_Text: 
 --- !u!1 &6306036015961478139
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,10 +89,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6306036015961478113}
   - component: {fileID: 6306036015961478112}
-  - component: {fileID: 28027152271297675}
   - component: {fileID: 6306036015961478118}
   - component: {fileID: 6306036015961478117}
   - component: {fileID: 6306036015961478116}
+  - component: {fileID: 4825309718543895752}
   m_Layer: 5
   m_Name: Quest Log
   m_TagString: Untagged
@@ -143,38 +143,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
---- !u!114 &28027152271297675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6306036015961478139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24c749d0c675d3940923d50f77b241d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disableInteraction: 0
-  visibleOnAwake: 1
-  controlOpacity: 1
-  fadeTime: 0.3
-  ignoreTimeScale: 1
-  focusObject: {fileID: 0}
-  focusMode: 0
-  onShow:
-    m_PersistentCalls:
-      m_Calls: []
-  onHide:
-    m_PersistentCalls:
-      m_Calls: []
-  hideOnLoad: 1
-  hideInThumbnail: 0
-  saveVisibilityState: 1
-  blockInputWhenVisible: 0
-  allowedSamplers: []
-  modalUI: 0
-  fontChangeConfiguration: []
 --- !u!225 &6306036015961478118
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -227,6 +195,42 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &4825309718543895752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6306036015961478139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 434d1570feceee0488999d9c4d575c19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableInteraction: 0
+  visibleOnAwake: 1
+  controlOpacity: 1
+  fadeTime: 0.3
+  ignoreTimeScale: 1
+  focusObject: {fileID: 0}
+  focusMode: 0
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
+    m_PersistentCalls:
+      m_Calls: []
+  hideOnLoad: 1
+  hideInThumbnail: 0
+  saveVisibilityState: 1
+  blockInputWhenVisible: 0
+  allowedSamplers: []
+  modalUI: 0
+  fontChangeConfiguration: []
+  questTextContent: {fileID: 8568922558504922293}
+  newQuestColor: {r: 1, g: 0.6616513, b: 0, a: 1}
+  questCompletedColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
+  showQuestHistoryCount: 1
 --- !u!1 &7818092233323381935
 GameObject:
   m_ObjectHideFlags: 0

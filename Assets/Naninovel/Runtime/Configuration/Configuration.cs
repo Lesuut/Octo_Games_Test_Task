@@ -13,6 +13,7 @@ namespace Naninovel
     public abstract class Configuration : ScriptableObject
     {
         /// <summary>
+        ///
         /// When applied to a <see cref="Configuration"/> implementation, adds an associated editor settings menu.
         /// </summary>
         [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
