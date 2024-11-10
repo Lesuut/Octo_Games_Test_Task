@@ -5,6 +5,7 @@ namespace NaninovelQuest
     [CommandAlias("questComplete")]
     public class QuestComplete : Command
     {
+        [RequiredParameter]
         public StringParameter KeyId;
 
         public override async UniTask ExecuteAsync(AsyncToken asyncToken = default)

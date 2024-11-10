@@ -3,24 +3,20 @@
 @showUI QuestLog
 
 @questAdd KeyId:"quest_1" Content:"Find the hidden treasure!"
-@questAdd KeyId:"quest_2" Content:"Decipher the message: A B C D!"
-@questAdd KeyId:"quest_3" Content:"Locate the secret exit in the Backrooms."
-@questAdd KeyId:"quest_4" Content:"Avoid the lurking shadow!"
+
+@if IsQuestCompleted("quest_1")
+	quest_1 True
+@else
+    quest_1 False
+@endif
+
 1
 @questComplete KeyId:"quest_1"  // Mark quest 1 as complete
-2
-@questAdd KeyId:"quest_5" Content:"Collect all items scattered in Level 0."
-3
-@questAdd KeyId:"quest_6" Content:"Solve the puzzle to unlock a hidden door."
-4
-@questComplete KeyId:"quest_2"
-5
-@questComplete KeyId:"quest_3"
-6
-@questComplete KeyId:"quest_4"
-7
-@questComplete KeyId:"quest_5"
-8
-@questComplete KeyId:"quest_6"
-9
+
+@if IsQuestCompleted("quest_1")
+	quest_1 True
+@else
+    quest_1 False
+@endif
+
 @stop

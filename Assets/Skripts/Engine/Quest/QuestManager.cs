@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-using Naninovel;
+﻿using Naninovel;
 
 namespace NaninovelQuest
 {
@@ -9,19 +8,19 @@ namespace NaninovelQuest
     {
         public QuestManager()
         {
-            Debug.Log("QuestManager!");
+
         }
 
         public UniTask InitializeServiceAsync()
         {
-            Debug.Log("QuestManager InitializeServiceAsync");
-
             return UniTask.CompletedTask;
         }
 
         public void ResetService()
         {
-            // Сброс состояния сервиса.
+            var quest = Engine.GetService<IUIManager>().GetUI<QuestUI>();
+            if (ObjectUtils.IsValid(quest))
+                quest.RemoveAllQuests();
         }
 
         public void DestroyService()

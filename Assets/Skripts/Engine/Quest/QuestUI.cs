@@ -32,6 +32,7 @@ namespace NaninovelQuest
         [SerializeField] private int showQuestHistoryCount = 1;
 
         private IStateManager stateManager;
+
         private QuestManager questManager;
 
         private List<QuestItem> questItems;
@@ -44,6 +45,7 @@ namespace NaninovelQuest
 
         public bool IsQuestCompleted(string keyId)
         {
+            if (questItems.Count <= 0) { return false; }
             return questItems.Any(quest => quest.KeyId == keyId && quest.IsCompleted);
         }
 
@@ -55,6 +57,12 @@ namespace NaninovelQuest
             quest.Complete();
 
             await UpdateQuestUIAsync();
+        }
+
+        public void RemoveAllQuests()
+        {
+            questItems.Clear();
+            questTextContent.text = "";
         }
 
         private async UniTask UpdateQuestUIAsync()
