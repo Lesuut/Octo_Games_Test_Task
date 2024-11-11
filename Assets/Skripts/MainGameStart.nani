@@ -2,4 +2,6 @@
 
 Hello World!
 
+@goto Test.Input1
+
 @stop
