@@ -1,5 +1,3 @@
-@hideUI QuestLog time:0 wait:false
-
 @back MainMenu wait:false
 
 @bgm MainMenuMusic

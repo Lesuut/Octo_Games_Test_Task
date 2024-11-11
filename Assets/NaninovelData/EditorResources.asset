@@ -172,6 +172,9 @@ MonoBehaviour:
     - name: Inventory
       pathPrefix: UI
       guid: a9fb1e769494044469b5758c99195b04
+    - name: MiniGame
+      pathPrefix: UI
+      guid: 89c550ec0e9141b408bd234950d5da21
   - Id: Scripts
     Resources:
     - name: MainStart
