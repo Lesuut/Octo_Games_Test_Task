@@ -2,6 +2,6 @@
 
 Hello World!
 
-@miniGameStart SettingId:Easy
+@miniGameStart SettingId:Easy ScriptName:Test
 
 @stop

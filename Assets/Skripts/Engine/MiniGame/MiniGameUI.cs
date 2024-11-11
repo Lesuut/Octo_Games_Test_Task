@@ -8,7 +8,7 @@ namespace NaninovelMiniGame
     public class MiniGameUI : CustomUI
     {
         [SerializeField] private MemoryGameManager gameManager;
-        [SerializeField] private MemoryGameSettings memoryGameSettings;
+        [SerializeField] private PlayScript gameScript;
 
         private MiniGameManager inventoryManager;
         private IScriptPlayer scriptPlayer;
@@ -23,14 +23,30 @@ namespace NaninovelMiniGame
             uiManager = Engine.GetService<IUIManager>();
         }
 
-        public async UniTask StartMiniGame(string SettingID, AsyncToken asyncToken = default)
+        public async UniTask StartMiniGame(string SettingID, string ScriptName, string ScriptText, AsyncToken asyncToken = default)
         {
             var miniGameUi = uiManager.GetUI(inventoryManager.GetMiniGameUIItemID());
             miniGameUi.Show();
 
-            gameManager.StartGame(memoryGameSettings);
+            gameManager.StartGame(await inventoryManager.GetItemGameSettingsAsync(SettingID));
 
-            //gameManager.StartGame(await inventoryManager.GetItemGameSettingsAsync(SettingID));
+            // Создаем UniTaskCompletionSource для ожидания завершения игры
+            var finishCompletionSource = new UniTaskCompletionSource();
+
+            gameManager.Finish += (memoryGameResults) =>
+            {
+                finishCompletionSource.TrySetResult();  // Завершаем задачу
+            };
+
+            // Ожидаем завершения игры
+            await finishCompletionSource.Task;
+
+            // Скрываем UI после завершения игры
+            miniGameUi.Hide();
+
+            gameScript.SetValue(ScriptName, ScriptText);
+
+            gameScript.Play();
         }
     }
 }

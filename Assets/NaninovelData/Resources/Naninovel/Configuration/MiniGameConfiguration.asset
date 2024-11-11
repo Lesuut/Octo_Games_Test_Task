@@ -15,4 +15,8 @@ MonoBehaviour:
   memoruGameSettings:
   - ItemId: Easy
     GameSettings: {fileID: 11400000, guid: 15f4677b0394f4148ba73c83bae9c244, type: 2}
+  - ItemId: Medium
+    GameSettings: {fileID: 11400000, guid: bed577be6c077eb4489a08ac2acfc867, type: 2}
+  - ItemId: Hard
+    GameSettings: {fileID: 11400000, guid: e9bc11a1a1eb86a4babe9cbcd59c11c8, type: 2}
   MiniGameUIItemID: MiniGame

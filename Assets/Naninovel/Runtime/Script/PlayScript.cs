@@ -23,6 +23,12 @@ namespace Naninovel
 
         private string argument;
 
+        public void SetValue(string scriptName, string scriptText)
+        {
+            this.scriptName = scriptName;
+            this.scriptText = scriptText;
+        }
+
         public void Play ()
         {
             argument = null;
