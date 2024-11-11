@@ -181,7 +181,7 @@
           &lt;Parameter&gt;
             &lt;Id&gt;KeyId&lt;/Id&gt;
             &lt;Nameless&gt;false&lt;/Nameless&gt;
-            &lt;Required&gt;false&lt;/Required&gt;
+            &lt;Required&gt;true&lt;/Required&gt;
             &lt;Localizable&gt;false&lt;/Localizable&gt;
             &lt;ValueContainerType&gt;Single&lt;/ValueContainerType&gt;
             &lt;ValueType&gt;String&lt;/ValueType&gt;
@@ -189,7 +189,7 @@
           &lt;Parameter&gt;
             &lt;Id&gt;Content&lt;/Id&gt;
             &lt;Nameless&gt;false&lt;/Nameless&gt;
-            &lt;Required&gt;false&lt;/Required&gt;
+            &lt;Required&gt;true&lt;/Required&gt;
             &lt;Localizable&gt;false&lt;/Localizable&gt;
             &lt;ValueContainerType&gt;Single&lt;/ValueContainerType&gt;
             &lt;ValueType&gt;String&lt;/ValueType&gt;
@@ -225,7 +225,7 @@
           &lt;Parameter&gt;
             &lt;Id&gt;KeyId&lt;/Id&gt;
             &lt;Nameless&gt;false&lt;/Nameless&gt;
-            &lt;Required&gt;false&lt;/Required&gt;
+            &lt;Required&gt;true&lt;/Required&gt;
             &lt;Localizable&gt;false&lt;/Localizable&gt;
             &lt;ValueContainerType&gt;Single&lt;/ValueContainerType&gt;
             &lt;ValueType&gt;String&lt;/ValueType&gt;
@@ -701,6 +701,7 @@
       &lt;string&gt;Player_Name&lt;/string&gt;
     &lt;/Variables&gt;
     &lt;Functions&gt;
+      &lt;string&gt;IsQuestCompleted&lt;/string&gt;
       &lt;string&gt;ItemCount&lt;/string&gt;
       &lt;string&gt;ItemExist&lt;/string&gt;
     &lt;/Functions&gt;

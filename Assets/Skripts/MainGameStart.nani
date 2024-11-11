@@ -1,22 +1,5 @@
 @back Level_0 id:Backrooms
 
-@showUI QuestLog
-
-@questAdd KeyId:"quest_1" Content:"Find the hidden treasure!"
-
-@if IsQuestCompleted("quest_1")
-	quest_1 True
-@else
-    quest_1 False
-@endif
-
-1
-@questComplete KeyId:"quest_1"  // Mark quest 1 as complete
-
-@if IsQuestCompleted("quest_1")
-	quest_1 True
-@else
-    quest_1 False
-@endif
+Hello World!
 
 @stop
