@@ -175,6 +175,9 @@ MonoBehaviour:
     - name: MiniGame
       pathPrefix: UI
       guid: 89c550ec0e9141b408bd234950d5da21
+    - name: InventoryButton
+      pathPrefix: UI
+      guid: c270121290980aa4380ecf41a324d467
   - Id: Scripts
     Resources:
     - name: MainStart
@@ -266,14 +269,24 @@ MonoBehaviour:
       guid: 412b92d4feeb9c548bfa98f62c4d1022
   - Id: Backgrounds/c59599f4-3e44-4f96-a7fc-d084d4ceabf5
     Resources:
-    - name: Level_0
-      pathPrefix: Backgrounds/Backrooms
-      guid: c3994b1758b81e74ab9634ecbdc90a9c
-    - name: Level_Hub
-      pathPrefix: Backgrounds/Backrooms
-      guid: 4de7fcbfe49321146af804478e1880e0
+    - name: HomeMainHole
+      pathPrefix: Backgrounds/Home
+      guid: 87ad73e8ebdecac4cbb252c41ab0f12e
+    - name: HomeRoom
+      pathPrefix: Backgrounds/Home
+      guid: 99680f4d3b860b44a8269cd97957a605
   - Id: Inventory
     Resources:
     - name: Book
       pathPrefix: Inventory
       guid: 3006041c228b5b545a780d1c000e011b
+  - Id: Backgrounds/04a62d43-7cdc-463d-afdb-4f878d3fc177
+    Resources:
+    - name: GreenStreet
+      pathPrefix: Backgrounds/World
+      guid: 0dce53d500a131d4886adcb11203d646
+  - Id: Backgrounds/790e4c40-9bc6-4131-8223-43516f39944b
+    Resources:
+    - name: School
+      pathPrefix: Backgrounds/School
+      guid: e057ccca5cde9c24fb9674619074c2cd

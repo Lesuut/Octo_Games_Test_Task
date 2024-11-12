@@ -1,7 +1,5 @@
 @back MainMenu wait:false
 
-@bgm MainMenuMusic
-
-@spawn SunShafts params:1,0.5,60
+@spawn SunShafts params:0.5,0,60
 
 @stop

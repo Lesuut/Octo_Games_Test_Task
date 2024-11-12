@@ -158,6 +158,7 @@ GameObject:
   - component: {fileID: 7533912688089314794}
   - component: {fileID: 1989890229097582909}
   - component: {fileID: 5311860423922982921}
+  - component: {fileID: 203074599428212723}
   m_Layer: 5
   m_Name: CloseButton
   m_TagString: Untagged
@@ -266,7 +267,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1301282898194853920}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 203074599428212723}
+        m_TargetAssemblyTypeName: Naninovel.PlayScript, Elringus.Naninovel.Runtime
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   labelText: {fileID: 296250401608720034}
   labelColors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -321,6 +334,22 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &203074599428212723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319225115064192251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5975c9748a52c8d43b34c8d7c428cacd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptName: 
+  scriptText: '@showUI InventoryButton'
+  playOnAwake: 0
+  disableWaitInput: 0
 --- !u!1 &6306036015961478139
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,11 +646,11 @@ RectTransform:
   - {fileID: 8467891148691304591}
   m_Father: {fileID: 6306036015961478113}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -50, y: -50}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -200}
   m_SizeDelta: {x: 385, y: 0}
-  m_Pivot: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &4936349060299725822
 CanvasRenderer:
   m_ObjectHideFlags: 0

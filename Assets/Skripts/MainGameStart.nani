@@ -1,7 +1,9 @@
 @back Level_0 id:Backrooms
 
+@showUI InventoryButton
+
 Hello World!
 
-@miniGameStart SettingId:Easy ScriptName:Test
+;@miniGameStart SettingId:Easy ScriptName:Test
 
 @stop
