@@ -267,16 +267,13 @@ MonoBehaviour:
     Resources:
     - name: MainMenuMusic
       pathPrefix: Audio
-      guid: a6c907d69bc1ff740b280ab3f6ea259c
-    - name: Level_0
+      guid: d95128148219d1546a4b2343a6613cc5
+    - name: MiniGameMusic
       pathPrefix: Audio
-      guid: 30d67a6269110f349aba588f4afaced0
-    - name: Level_Hub
+      guid: ace1ecc83cf13c5429e9711c32135460
+    - name: Fone
       pathPrefix: Audio
-      guid: 73cd74afa661f1d49aac847a85e8f63b
-    - name: Fall_Sound
-      pathPrefix: Audio
-      guid: f5c673d7656f5fb419be2238010003a1
+      guid: 6a0cafb8296aa294c8da1fded864bf4b
   - Id: Characters/71012151-c8db-417f-be81-a24db209894f
     Resources:
     - name: Chan

@@ -783,15 +783,7 @@
         &lt;Type&gt;Audio&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;Level_0&lt;/Path&gt;
-        &lt;Type&gt;Audio&lt;/Type&gt;
-      &lt;/Resource&gt;
-      &lt;Resource&gt;
-        &lt;Path&gt;Level_Hub&lt;/Path&gt;
-        &lt;Type&gt;Audio&lt;/Type&gt;
-      &lt;/Resource&gt;
-      &lt;Resource&gt;
-        &lt;Path&gt;Fall_Sound&lt;/Path&gt;
+        &lt;Path&gt;MiniGameMusic&lt;/Path&gt;
         &lt;Type&gt;Audio&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -807,7 +799,7 @@
         &lt;Type&gt;Backgrounds/Home&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;Book&lt;/Path&gt;
+        &lt;Path&gt;Gift&lt;/Path&gt;
         &lt;Type&gt;Inventory&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -858,6 +850,7 @@
     &lt;Constants /&gt;
     &lt;Variables&gt;
       &lt;string&gt;Player_Name&lt;/string&gt;
+      &lt;string&gt;CharacterWithGift&lt;/string&gt;
     &lt;/Variables&gt;
     &lt;Functions&gt;
       &lt;string&gt;IsQuestCompleted&lt;/string&gt;

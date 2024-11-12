@@ -1,4 +1,7 @@
 #FirstDialogWithAlice
+
+@bgm Fone loop:true
+
 @back ClassRoom id:School
 @char Alice avatar:Alice pos:50,-10 pose:DefPose
 ...
@@ -54,6 +57,8 @@ yea
 
 
 #StartMiniGame
+@stopBgm Fone
+@bgm MiniGameMusic wait:false
 @miniGameStart SettingId:Easy ScriptText:"@goto School.FinishPlayConsoleMiniGameChan"
 @stop
 
@@ -61,6 +66,9 @@ yea
 #FinishPlayConsoleMiniGameChan
 @questComplete KeyId:"MiniGame"
 Chan.Pose3: Great game!
+
+@stopBgm MiniGameMusic
+@bgm Fone loop:true
 
 I should get the girls some kind of gift.
 @questAdd KeyId:"FindGift" Content:"Find gift for girls. It's probably in my house"
