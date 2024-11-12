@@ -137,6 +137,7 @@ Chan.Pose4: No, it's better for me.
     @removeItem Gift
     Alice.Happy: I'm very happy.
 @else
+    @spawn ShakeCharacter params:Alice wait:false
     Alice.Doubt: I have a grudge against you
 @endIf
 @stop
@@ -153,6 +154,7 @@ Chan.Pose4: No, it's better for me.
     @removeItem Gift
     Chan.Pose5: I'm very happy.
 @else
+    @spawn ShakeCharacter params:Chan wait:false
     Chan.Pose6: I have a grudge against you
 @endIf
 @stop
