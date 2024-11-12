@@ -74,8 +74,79 @@ I should get the girls some kind of gift.
 @hideAll
 @back ClassRoom id:School
 
+@if !IsQuestCompleted("FindGift")
+    There's nothing to do here.
+    @stop
+@endIf
+
+@if IsQuestCompleted("GiveGift")
+    @goto .GiftReactionAnna
+    @stop
+@endIf
+
+
+
+@questAdd KeyId:"GiveGift" Content:"Find the girls in the classroom"
+
+@printer Wide
+
+@char Alice.Default avatar:Alice pos:50,-50 pose:Zoom
+@char Chan avatar:Chan pos:150,-110 wait:false scale:2,2,2
+@char Alice pos:25,-50 pose:Zoom wait:false
+@char Chan avatar:Chan pos:75,-110 look:Left
+
+Alice: Hi
+Chan: Hi
+
+I'm an asshole, I've only one gift
+
+Alice.Teasing: Give it to me, please.
+@char Chan avatar:Chan pos:65,-120 wait:false
+Chan.Pose4: No, it's better for me.
+
+@choice "Give the gift to Anna" set:CharacterWithGift="Anna"
+@choice "Give the gift to Chan" set:CharacterWithGift="Chan"
+@choice "Give the gift to me" set:CharacterWithGift="Player" 
+@stop
+
 @questComplete KeyId:"GiveGift"
 
+@hideUI QuestLog wait:false
+
+@goto .GiftReactionAnna
+
+@stop
+
+
+
+#GiftReactionAnna
+@hideAll
+@back ClassRoom id:School
+
+@char Alice.Default avatar:Alice pos:50,-50 pose:Zoom
+
+@if CharacterWithGift=="Anna"
+    @removeItem Gift
+    Alice.Happy: I'm very happy.
+@else
+    Alice.Doubt: I have a grudge against you
+@endIf
+@stop
+
+
+
+#GiftReactionChan
+@hideAll
+@back Corridor id:School
+
+@char Chan avatar:Chan pos:50,-100 scale:2,2,2
+
+@if CharacterWithGift=="Chan"
+    @removeItem Gift
+    Chan.Pose5: I'm very happy.
+@else
+    Chan.Pose6: I have a grudge against you
+@endIf
 @stop
 
 
@@ -83,6 +154,10 @@ I should get the girls some kind of gift.
 #FormMapLocation_Corridor
 @hideAll
 @back Corridor id:School
+
+@if IsQuestCompleted("GiveGift")
+    @goto .GiftReactionChan
+@endIf
 
 I think she's in a class
 
