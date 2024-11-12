@@ -62,6 +62,7 @@
         &lt;Type&gt;Backgrounds&lt;/Type&gt;
         &lt;Appearances&gt;
           &lt;string&gt;School&lt;/string&gt;
+          &lt;string&gt;Blackboard&lt;/string&gt;
         &lt;/Appearances&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
@@ -658,6 +659,10 @@
         &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;InventoryButton&lt;/Path&gt;
+        &lt;Type&gt;UI&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;MainStart&lt;/Path&gt;
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -678,7 +683,7 @@
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;Test&lt;/Path&gt;
+        &lt;Path&gt;School&lt;/Path&gt;
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -775,6 +780,10 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;School&lt;/Path&gt;
+        &lt;Type&gt;Backgrounds/School&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;Blackboard&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/School&lt;/Type&gt;
       &lt;/Resource&gt;
     &lt;/Resources&gt;

@@ -195,9 +195,9 @@ MonoBehaviour:
     - name: MainGameStart
       pathPrefix: Scripts
       guid: c1aa50b9365cc5e4a88c5eff3803d31d
-    - name: Test
+    - name: School
       pathPrefix: Scripts
-      guid: d702dd3dae2ea864595257267c3efb3a
+      guid: 59eb3d88c341c634b83e4a3a43ea64ce
   - Id: Characters/d2be7e29-c084-4d1b-97f0-19e810fb6907
     Resources:
     - name: Default
@@ -231,6 +231,9 @@ MonoBehaviour:
     - name: Chan
       pathPrefix: CharacterAvatars
       guid: fda1d9ddc00070e4b9a34fe2e39ed33c
+    - name: Alice
+      pathPrefix: CharacterAvatars
+      guid: 5bc771b918085f145b4ed3a44b9ee8fa
   - Id: Characters/91a124cf-e8ba-42e5-8fd0-dbc15d8057d9
     Resources:
     - name: Def
@@ -287,6 +290,35 @@ MonoBehaviour:
       guid: 0dce53d500a131d4886adcb11203d646
   - Id: Backgrounds/790e4c40-9bc6-4131-8223-43516f39944b
     Resources:
-    - name: School
+    - name: ClassRoom
       pathPrefix: Backgrounds/School
       guid: e057ccca5cde9c24fb9674619074c2cd
+    - name: Blackboard
+      pathPrefix: Backgrounds/School
+      guid: 2cc9fa979f5e68d40949a8bbf3dc5b6c
+    - name: Corridor
+      pathPrefix: Backgrounds/School
+      guid: 5673cecf6782c394b9c7a6f66099aca8
+  - Id: Characters/57ec1008-6ac2-4db1-96c8-7ebab90209f8
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Alice
+      guid: 57c65964e0aeaea488d5350bc4377efb
+    - name: Blush
+      pathPrefix: Characters/Alice
+      guid: dae25b7701db028409225aec7f768b3f
+    - name: Doubt
+      pathPrefix: Characters/Alice
+      guid: e383de3df210d8548ae853f54566521c
+    - name: Embarrassed
+      pathPrefix: Characters/Alice
+      guid: 866b73d3758f5a44ba9a32ae10be0988
+    - name: Happy
+      pathPrefix: Characters/Alice
+      guid: 3a5b979f51ce8dd4e918cca51ba56c3b
+    - name: Teasing
+      pathPrefix: Characters/Alice
+      guid: aefc89e786828dd4baaf732f51acd5c4
+    - name: Worried
+      pathPrefix: Characters/Alice
+      guid: 6f3be524da3f46d42ab116cf1b5fd07d

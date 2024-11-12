@@ -1,9 +1,10 @@
-@back Level_0 id:Backrooms
+@back Blackboard id:School
 
-@showUI InventoryButton
+@input Player_Name summary:"Choose your name."
+@stop
 
-Hello World!
+Hello {Player_Name} :3
 
-;@miniGameStart SettingId:Easy ScriptName:Test
+@goto School.FirstDialogWithAlice
 
 @stop

@@ -1,0 +1,66 @@
+@back ClassRoom id:School
+@char Alice avatar:Alice pos:50,-10 pose:DefPose
+
+#FirstDialogWithAlice
+...
+@char Alice avatar:Alice pos:50,-50 pose:Zoom
+Hey, who are you?
+@printer Wide
+Alice.Happy: My name is Alice, and you are?
+My name is {Player_Name}
+Alice.Default: Nice to meet you {Player_Name})
+Alice.Blush: Let's go, I'll introduce you to Chan
+@choice "Let's go" goto:.FirstMeetChan
+@stop
+
+
+
+#FirstMeetChan
+@questAdd KeyId:"FirstMeetChan" Content:"Meet Chan"
+
+@printer Wide
+@back Corridor id:School
+
+@char Chan avatar:Chan pos:150,-110 wait:false scale:2,2,2
+@char Alice pos:25,-50 pose:Zoom wait:false
+@char Chan avatar:Chan pos:75,-110 look:Left
+
+Alice.Blush: Its Chan
+
+@char Chan.Pose2 pos:75,-100
+Chan: Hi!
+
+@questComplete KeyId:"FirstMeetChan"
+
+Nice to meet you Chan
+
+Alice.Doubt: I gotta go.
+Chan: Bye
+Bye
+@char Alice pos:-50,-50
+@hide Alice
+
+@char Chan.Pose3 pos:50,-110
+
+Chan: I got a new console, you want to play?
+
+yea
+
+@questAdd KeyId:"MiniGame" Content:"Play a console miniGame"
+
+@choice "Play" goto:.StartMiniGame
+
+@stop
+
+
+
+#StartMiniGame
+@miniGameStart SettingId:Easy ScriptText:"@goto School.FinishPlayConsoleMiniGameChan"
+@stop
+
+
+#FinishPlayConsoleMiniGameChan
+@questComplete KeyId:"MiniGame"
+Chan.Pose3: Great game!
+
+@stop

@@ -32,6 +32,7 @@ namespace NaninovelQuest
         [SerializeField] private int showQuestHistoryCount = 1;
 
         private IStateManager stateManager;
+        private IUIManager uIManager;
 
         private QuestManager questManager;
 
@@ -39,6 +40,7 @@ namespace NaninovelQuest
 
         public async UniTask AddQuest(QuestItem questItem)
         {
+            ShowQuestUi();
             questItems.Add(questItem);
             await UpdateQuestUIAsync();
         }
@@ -51,7 +53,6 @@ namespace NaninovelQuest
 
         public async UniTask CompleteQuest(string keyId)
         {
-
             var quest = questItems.FirstOrDefault(quest => quest.KeyId == keyId);
             
             quest.Complete();
@@ -107,6 +108,7 @@ namespace NaninovelQuest
 
             questManager = Engine.GetService<QuestManager>();
             stateManager = Engine.GetService<IStateManager>();
+            uIManager = Engine.GetService<IUIManager>();
         }
 
         protected override void OnEnable()
@@ -138,14 +140,17 @@ namespace NaninovelQuest
 
             var state = stateMap.GetState<GameState>();
 
-            foreach (var item in state.Quests)
-            {
-                Debug.Log($"{item.IsCompleted}");
-            }
-
             questItems = state.Quests.Select(item => new QuestItem(item.KeyId, item.Content, item.IsCompleted)).ToList();
 
+            if (questItems.Count > 0) { ShowQuestUi(); }
+
             await UpdateQuestUIAsync();
+        }
+
+        private void ShowQuestUi()
+        {
+            var questUi = uIManager.GetUI("QuestLog");
+            questUi.Show();
         }
     }
 }
