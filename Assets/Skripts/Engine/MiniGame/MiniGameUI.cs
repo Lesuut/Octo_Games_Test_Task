@@ -24,7 +24,7 @@ namespace NaninovelMiniGame
             uiManager = Engine.GetService<IUIManager>();
         }
 
-        public async UniTask StartMiniGame(string SettingID, string ScriptName, string ScriptText, AsyncToken asyncToken = default)
+        public async UniTask StartMiniGame(string SettingID, string ScriptText, AsyncToken asyncToken = default)
         {
             var miniGameUi = uiManager.GetUI(inventoryManager.GetMiniGameUIItemID());
             miniGameUi.Show();
@@ -45,7 +45,7 @@ namespace NaninovelMiniGame
             // Скрываем UI после завершения игры
             miniGameUi.Hide();
 
-            gameScript.SetValue(ScriptName, ScriptText);
+            gameScript.SetText(ScriptText);
 
             gameScript.Play();
         }

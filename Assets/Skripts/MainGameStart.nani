@@ -1,9 +1,9 @@
 @back Blackboard id:School
 
-@input Player_Name summary:"Choose your name."
+@input Player_Name summary:"Обери своє ім'я."
 @stop
 
-Hello {Player_Name} :3
+Привіт, {Player_Name} :3
 
 @goto School.FirstDialogWithAlice
 

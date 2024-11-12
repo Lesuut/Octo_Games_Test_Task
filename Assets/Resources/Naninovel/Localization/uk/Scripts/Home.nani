@@ -1,0 +1,7 @@
+; English <en> to Ukrainian <uk> localization document for `Home` naninovel script
+
+# b4796da2
+;     Тут немає чим зайнятися.
+
+# 9bf6fa0f
+; @choice "Взяти подарунок" goto:.TakeGift

@@ -1,0 +1,10 @@
+; English <en> to Ukrainian <uk> localization document for `Map` naninovel script
+
+# 12337d31
+; @choice handler:ButtonArea button:MapButtons/Location_ClassRoom pos:-100,200 goto:School.FormMapLocation_ClassRoom
+
+# 9233ee
+; @choice handler:ButtonArea button:MapButtons/Location_Corridor pos:300,200 goto:School.FormMapLocation_Corridor
+
+# d9385958
+; @choice handler:ButtonArea button:MapButtons/Location_Home pos:-250,-120 goto:Home.FormMapLocation_Home

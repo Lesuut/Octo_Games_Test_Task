@@ -1,0 +1,97 @@
+; English <en> to Ukrainian <uk> localization document for `School` naninovel script
+
+# 7db6f932
+; ...
+
+# e4711ee9
+; Привіт, хто ти?
+
+# 71f87cf5
+; Alice.Happy: Мене звати Еліс, а тебе?
+
+# 37471a68
+; Мене звати {Player_Name}
+
+# 98e130ca
+; Alice.Default: Приємно познайомитися, {Player_Name}
+
+# 595ab8c6
+; Alice.Blush: Ходімо, я познайомлю тебе з Чаном
+
+# c61bc0c1
+; @choice "Ходімо" goto:.FirstMeetChan
+
+# 2c85c450
+; Alice.Blush: Це Чан
+
+# d276d9e2
+; Chan: Привіт!
+
+# 6d4a1eba
+; Приємно познайомитися, Чан
+
+# c3670417
+; Alice.Doubt: Мені треба йти.
+
+# 506eea8b
+; Chan: Бувай
+
+# 2f13f18f
+; Бувай
+
+# 28c8c5fd
+; Chan: Я придбав нову консоль, хочеш пограти?
+
+# 42a3b666
+; так
+
+# 634bd344
+; @choice Грати goto:.StartMiniGame
+
+# 58ef89e2
+; Chan.Pose3: Чудова гра!
+
+# a14182e1
+; Мені слід подарувати дівчатам якийсь подарунок.
+
+# b4796da2
+;     Тут немає чим зайнятися.
+
+# 81182c9f
+; Alice: Привіт
+
+# 657a1ec9
+; Chan: Привіт
+
+# 94777710
+; Я придурок, у мене лише один подарунок
+
+# 47ac2185
+; Alice.Teasing: Дай це мені, будь ласка.
+
+# c36890f6
+; Chan.Pose4: Ні, мені це більше підходить.
+
+# e9d827b9
+; @choice "Подарувати подарунок Анні" set:CharacterWithGift="Anna"
+
+# e41636e5
+; @choice "Подарувати подарунок Чану" set:CharacterWithGift="Chan"
+
+# 4421007f
+; @choice "Подарувати подарунок мені" set:CharacterWithGift="Player" 
+
+# 59ae3e2
+;     Alice.Happy: Я дуже радий.
+
+# 1527dfe8
+;     Alice.Doubt: Я маю на тебе злість
+
+# e2e64605
+;     Chan.Pose5: Я дуже радий.
+
+# ce7b0fac
+;     Chan.Pose6: Я маю на тебе злість
+
+# afc54d7
+; Думаю, вона на уроці
