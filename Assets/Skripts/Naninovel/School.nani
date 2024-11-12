@@ -73,6 +73,9 @@ I should get the girls some kind of gift.
 #FormMapLocation_ClassRoom
 @hideAll
 @back ClassRoom id:School
+
+@questComplete KeyId:"GiveGift"
+
 @stop
 
 
@@ -80,4 +83,8 @@ I should get the girls some kind of gift.
 #FormMapLocation_Corridor
 @hideAll
 @back Corridor id:School
+
+I think she's in a class
+
+@questAdd KeyId:"GiveGift" Content:"Find the girls in the classroom"
 @stop

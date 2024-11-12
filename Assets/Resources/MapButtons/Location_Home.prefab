@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 114304314121696590}
   - component: {fileID: 114935234543976500}
   - component: {fileID: 9005897704835296197}
-  - component: {fileID: 8962634190752917476}
   m_Layer: 5
   m_Name: Location_Home
   m_TagString: Untagged
@@ -101,11 +100,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.78431374}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 0.78431374}
-    m_DisabledColor: {r: 1, g: 0.9481132, b: 0.9481132, a: 0.397}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.397}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -165,22 +164,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 1
---- !u!114 &8962634190752917476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035633866503374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5975c9748a52c8d43b34c8d7c428cacd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scriptName: 
-  scriptText: 
-  playOnAwake: 1
-  disableWaitInput: 0
 --- !u!1 &5065768640812098053
 GameObject:
   m_ObjectHideFlags: 0

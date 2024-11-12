@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Naninovel.UI;
 using System.Linq;
+using DTT.Utils.Extensions;
 
 namespace NaninovelQuest
 {
@@ -40,6 +41,7 @@ namespace NaninovelQuest
 
         public async UniTask AddQuest(QuestItem questItem)
         {
+            if (questItems.Any(quest => quest.KeyId == questItem.KeyId)) { return; }
             ShowQuestUi();
             questItems.Add(questItem);
             await UpdateQuestUIAsync();
@@ -54,8 +56,11 @@ namespace NaninovelQuest
         public async UniTask CompleteQuest(string keyId)
         {
             var quest = questItems.FirstOrDefault(quest => quest.KeyId == keyId);
-            
-            quest.Complete();
+
+            if (!quest.KeyId.IsNullOrEmpty())
+            {
+                quest.Complete();
+            }
 
             await UpdateQuestUIAsync();
         }
