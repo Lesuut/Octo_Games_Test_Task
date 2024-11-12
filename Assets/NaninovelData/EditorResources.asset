@@ -144,13 +144,13 @@ MonoBehaviour:
       guid: a32c73a3aff4b274c85b3ff16c854b07
     - name: SaveLoadUI
       pathPrefix: UI
-      guid: 8d53726b3d08433479398f02b4780e7f
+      guid: 577a6804777c8d040bc1a31e662e8cd9
     - name: SceneTransitionUI
       pathPrefix: UI
       guid: e3b234b4273b7f64ab3f1d9fe425ed23
     - name: SettingsUI
       pathPrefix: UI
-      guid: 65c37f59e9b266f468dd5381fdc03fc3
+      guid: 126dbf3d682182c40996e54f8f72dc75
     - name: TipsUI
       pathPrefix: UI
       guid: f5aae572225ee1b4c96d1a17fc5cb073
