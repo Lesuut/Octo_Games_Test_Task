@@ -1,7 +1,9 @@
 ; English <en> to Ukrainian <uk> localization document for `MainGameStart` naninovel script
 
-# 59809a11
-; @input Player_Name summary:"Обери своє ім'я."
+# 55ea3e39
+; @input Player_Name summary:"Choose your name."
+@input Player_Name summary:"Обери своє ім'я."
 
-# 5213418b
-; Привіт, {Player_Name} :3
+# cec0fdf5
+; Hello, {Player_Name} :3
+Привіт, {Player_Name} :3

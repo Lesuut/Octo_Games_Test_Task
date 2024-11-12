@@ -6,13 +6,13 @@
 @char Alice avatar:Alice pos:50,-10 pose:DefPose
 ...
 @char Alice avatar:Alice pos:50,-50 pose:Zoom
-Привіт, хто ти?
+Hello, who are you?
 @printer Wide
-Alice.Happy: Мене звати Еліс, а тебе?
-Мене звати {Player_Name}
-Alice.Default: Приємно познайомитися, {Player_Name}
-Alice.Blush: Ходімо, я познайомлю тебе з Чаном
-@choice "Ходімо" goto:.FirstMeetChan
+Alice.Happy: My name is Alice, and yours?
+My name is {Player_Name}
+Alice.Default: Nice to meet you, {Player_Name}
+Alice.Blush: Let's go, I'll introduce you to Chan
+@choice Let's go goto:.FirstMeetChan
 @stop
 
 
@@ -27,30 +27,30 @@ Alice.Blush: Ходімо, я познайомлю тебе з Чаном
 @char Alice pos:25,-50 pose:Zoom wait:false
 @char Chan avatar:Chan pos:75,-110 look:Left
 
-Alice.Blush: Це Чан
+Alice.Blush: This is Chan
 
 @char Chan.Pose2 pos:75,-100
-Chan: Привіт!
+Chan: Hello!
 
 @questComplete KeyId:"FirstMeetChan"
 
-Приємно познайомитися, Чан
+Nice to meet you, Chan
 
-Alice.Doubt: Мені треба йти.
-Chan: Бувай
-Бувай
+Alice.Doubt: I have to go.
+Chan: Goodbye
+Goodbye
 @char Alice pos:-50,-50
 @hide Alice
 
 @char Chan.Pose3 pos:50,-110
 
-Chan: Я придбав нову консоль, хочеш пограти?
+Chan: I bought a new console, do you want to play?
 
-так
+yes
 
 @questAdd KeyId:"MiniGame" Content:"Play a console miniGame"
 
-@choice Грати goto:.StartMiniGame
+@choice Play goto:.StartMiniGame
 
 @stop
 
@@ -65,12 +65,12 @@ Chan: Я придбав нову консоль, хочеш пограти?
 
 #FinishPlayConsoleMiniGameChan
 @questComplete KeyId:"MiniGame"
-Chan.Pose3: Чудова гра!
+Chan.Pose3: Great game!
 
 @stopBgm MiniGameMusic
 @bgm Fone loop:true
 
-Мені слід подарувати дівчатам якийсь подарунок.
+I should give the girls a gift.
 @questAdd KeyId:"FindGift" Content:"Find gift for girls. It's probably in my house"
 @showUI MapButton
 
@@ -83,7 +83,7 @@ Chan.Pose3: Чудова гра!
 @back ClassRoom id:School
 
 @if !IsQuestCompleted("FindGift")
-    Тут немає чим зайнятися.
+    There’s nothing to do here.
     @stop
 @endIf
 
@@ -103,18 +103,18 @@ Chan.Pose3: Чудова гра!
 @char Alice pos:25,-50 pose:Zoom wait:false
 @char Chan avatar:Chan pos:75,-110 look:Left
 
-Alice: Привіт
-Chan: Привіт
+Alice: Hello
+Chan: Hello
 
-Я придурок, у мене лише один подарунок
+I'm a fool, I only have one gift
 
-Alice.Teasing: Дай це мені, будь ласка.
+Alice.Teasing: Give it to me, please.
 @char Chan avatar:Chan pos:65,-120 wait:false
-Chan.Pose4: Ні, мені це більше підходить.
+Chan.Pose4: No, it suits me better.
 
-@choice "Подарувати подарунок Анні" set:CharacterWithGift="Anna"
-@choice "Подарувати подарунок Чану" set:CharacterWithGift="Chan"
-@choice "Подарувати подарунок мені" set:CharacterWithGift="Player" 
+@choice "Give the gift to Anna" set:CharacterWithGift="Anna"
+@choice "Give the gift to Chan" set:CharacterWithGift="Chan"
+@choice "Give the gift to myself" set:CharacterWithGift="Player" 
 @stop
 
 @questComplete KeyId:"GiveGift"
@@ -135,10 +135,10 @@ Chan.Pose4: Ні, мені це більше підходить.
 
 @if CharacterWithGift=="Anna"
     @removeItem Gift
-    Alice.Happy: Я дуже радий.
+    Alice.Happy: I'm very happy.
 @else
     @spawn ShakeCharacter params:Alice wait:false
-    Alice.Doubt: Я маю на тебе злість
+    Alice.Doubt: I'm mad at you
 @endIf
 @stop
 
@@ -152,10 +152,10 @@ Chan.Pose4: Ні, мені це більше підходить.
 
 @if CharacterWithGift=="Chan"
     @removeItem Gift
-    Chan.Pose5: Я дуже радий.
+    Chan.Pose5: I'm very happy.
 @else
     @spawn ShakeCharacter params:Chan wait:false
-    Chan.Pose6: Я маю на тебе злість
+    Chan.Pose6: I'm mad at you
 @endIf
 @stop
 
@@ -169,7 +169,7 @@ Chan.Pose4: Ні, мені це більше підходить.
     @goto .GiftReactionChan
 @endIf
 
-Думаю, вона на уроці
+I think she's in class
 
 @questAdd KeyId:"GiveGift" Content:"Find the girls in the classroom"
 @stop

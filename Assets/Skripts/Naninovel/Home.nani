@@ -3,11 +3,11 @@
 @back HomeMainHole id:Home
 
 @if IsQuestCompleted("FindGift")
-    Тут немає чим зайнятися.
+    There’s nothing to do here.
     @stop
 @endIf
 
-@choice "Взяти подарунок" goto:.TakeGift
+@choice "Take the gift" goto:.TakeGift
 
 @stop
 

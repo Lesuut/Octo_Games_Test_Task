@@ -1,7 +1,9 @@
 ; English <en> to Ukrainian <uk> localization document for `Home` naninovel script
 
-# b4796da2
-;     Тут немає чим зайнятися.
+# c5e138e5
+;     There’s nothing to do here.
+    Тут немає чим зайнятися.
 
-# 9bf6fa0f
-; @choice "Взяти подарунок" goto:.TakeGift
+# 354fb9d3
+; @choice "Take the gift" goto:.TakeGift
+@choice "Взяти подарунок" goto:.TakeGift

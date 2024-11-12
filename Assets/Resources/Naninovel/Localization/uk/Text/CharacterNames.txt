@@ -1,3 +1,4 @@
-Anna: Анна
+Alice: 
+Anna: 
 Chan: Чан
 Sonya: Соня

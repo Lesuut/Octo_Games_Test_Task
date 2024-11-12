@@ -226,14 +226,6 @@
             &lt;ValueType&gt;String&lt;/ValueType&gt;
           &lt;/Parameter&gt;
           &lt;Parameter&gt;
-            &lt;Id&gt;ScriptName&lt;/Id&gt;
-            &lt;Nameless&gt;false&lt;/Nameless&gt;
-            &lt;Required&gt;true&lt;/Required&gt;
-            &lt;Localizable&gt;false&lt;/Localizable&gt;
-            &lt;ValueContainerType&gt;Single&lt;/ValueContainerType&gt;
-            &lt;ValueType&gt;String&lt;/ValueType&gt;
-          &lt;/Parameter&gt;
-          &lt;Parameter&gt;
             &lt;Id&gt;Wait&lt;/Id&gt;
             &lt;Nameless&gt;false&lt;/Nameless&gt;
             &lt;Required&gt;false&lt;/Required&gt;
@@ -784,6 +776,10 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;MiniGameMusic&lt;/Path&gt;
+        &lt;Type&gt;Audio&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;Fone&lt;/Path&gt;
         &lt;Type&gt;Audio&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;

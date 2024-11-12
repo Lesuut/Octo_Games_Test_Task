@@ -3,95 +3,126 @@
 # 7db6f932
 ; ...
 
-# e4711ee9
-; Привіт, хто ти?
+# 1667fc59
+; Hello, who are you?
+Привіт, хто ти?
 
-# 71f87cf5
-; Alice.Happy: Мене звати Еліс, а тебе?
+# c58a0e30
+; Alice.Happy: My name is Alice, and yours?
+Alice.Happy: Мене звати Еліс, а тебе?
 
-# 37471a68
-; Мене звати {Player_Name}
+# 412e989d
+; My name is {Player_Name}
+Мене звати {Player_Name}
 
-# 98e130ca
-; Alice.Default: Приємно познайомитися, {Player_Name}
+# f6d57e3e
+; Alice.Default: Nice to meet you, {Player_Name}
+Alice.Default: Приємно познайомитися, {Player_Name}
 
-# 595ab8c6
-; Alice.Blush: Ходімо, я познайомлю тебе з Чаном
+# d5fe7b8d
+; Alice.Blush: Let's go, I'll introduce you to Chan
+Alice.Blush: Ходімо, я познайомлю тебе з Чаном
 
-# c61bc0c1
-; @choice "Ходімо" goto:.FirstMeetChan
+# e68c82b0
+; @choice Let's go goto:.FirstMeetChan
+@choice Ходімо goto:.FirstMeetChan
 
-# 2c85c450
-; Alice.Blush: Це Чан
+# fa870870
+; Alice.Blush: This is Chan
+Alice.Blush: Це Чан
 
-# d276d9e2
-; Chan: Привіт!
+# a6c02f9d
+; Chan: Hello!
+Chan: Привіт!
 
-# 6d4a1eba
-; Приємно познайомитися, Чан
+# 8a2a33ab
+; Nice to meet you, Chan
+Приємно познайомитися, Чан
 
-# c3670417
-; Alice.Doubt: Мені треба йти.
+# e5132b58
+; Alice.Doubt: I have to go.
+Alice.Doubt: Мені треба йти.
 
-# 506eea8b
-; Chan: Бувай
+# 3408a026
+; Chan: Goodbye
+Chan: Бувай
 
-# 2f13f18f
-; Бувай
+# a43b595a
+; Goodbye
+Бувай
 
-# 28c8c5fd
-; Chan: Я придбав нову консоль, хочеш пограти?
+# 3c57f03e
+; Chan: I bought a new console, do you want to play?
+Chan: Я придбав нову консоль, хочеш пограти?
 
-# 42a3b666
-; так
+# ea8aba51
+; yes
+так
 
-# 634bd344
-; @choice Грати goto:.StartMiniGame
+# 24fc0d5a
+; @choice Play goto:.StartMiniGame
+@choice Грати goto:.StartMiniGame
 
-# 58ef89e2
-; Chan.Pose3: Чудова гра!
+# c219c45f
+; Chan.Pose3: Great game!
+Chan.Pose3: Чудова гра!
 
-# a14182e1
-; Мені слід подарувати дівчатам якийсь подарунок.
+# cc01c01d
+; I should give the girls a gift.
+Мені слід подарувати дівчатам якийсь подарунок.
 
-# b4796da2
-;     Тут немає чим зайнятися.
+# c5e138e5
+;     There’s nothing to do here.
+    Тут немає чим зайнятися.
 
-# 81182c9f
-; Alice: Привіт
+# 6c1c766d
+; Alice: Hello
+Alice: Привіт
 
-# 657a1ec9
-; Chan: Привіт
+# 330fe39f
+; Chan: Hello
+Chan: Привіт
 
-# 94777710
-; Я придурок, у мене лише один подарунок
+# 8a36ff1b
+; I'm a fool, I only have one gift
+Я придурок, у мене лише один подарунок
 
-# 47ac2185
-; Alice.Teasing: Дай це мені, будь ласка.
+# 74a5e736
+; Alice.Teasing: Give it to me, please.
+Alice.Teasing: Дай це мені, будь ласка.
 
-# c36890f6
-; Chan.Pose4: Ні, мені це більше підходить.
+# d4a10395
+; Chan.Pose4: No, it suits me better.
+Chan.Pose4: Ні, мені це більше підходить.
 
-# e9d827b9
-; @choice "Подарувати подарунок Анні" set:CharacterWithGift="Anna"
+# 4c2373dd
+; @choice "Give the gift to Anna" set:CharacterWithGift="Anna"
+@choice "Подарувати подарунок Анні" set:CharacterWithGift="Anna"
 
-# e41636e5
-; @choice "Подарувати подарунок Чану" set:CharacterWithGift="Chan"
+# 3ad7d7fe
+; @choice "Give the gift to Chan" set:CharacterWithGift="Chan"
+@choice "Подарувати подарунок Чану" set:CharacterWithGift="Chan"
 
-# 4421007f
-; @choice "Подарувати подарунок мені" set:CharacterWithGift="Player" 
+# 16916c56
+; @choice "Give the gift to myself" set:CharacterWithGift="Player" 
+@choice "Подарувати подарунок мені" set:CharacterWithGift="Player" 
 
-# 59ae3e2
-;     Alice.Happy: Я дуже радий.
+# 8826b882
+;     Alice.Happy: I'm very happy.
+    Alice.Happy: Я дуже радий.
 
-# 1527dfe8
-;     Alice.Doubt: Я маю на тебе злість
+# 92c8f40d
+;     Alice.Doubt: I'm mad at you
+    Alice.Doubt: Я маю на тебе злість
 
-# e2e64605
-;     Chan.Pose5: Я дуже радий.
+# ffe2362b
+;     Chan.Pose5: I'm very happy.
+    Chan.Pose5: Я дуже радий.
 
-# ce7b0fac
-;     Chan.Pose6: Я маю на тебе злість
+# c7beff03
+;     Chan.Pose6: I'm mad at you
+    Chan.Pose6: Я маю на тебе злість
 
-# afc54d7
-; Думаю, вона на уроці
+# d9011aa
+; I think she's in class
+Думаю, вона на уроці

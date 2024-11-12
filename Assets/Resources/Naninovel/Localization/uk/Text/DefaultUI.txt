@@ -1,22 +1,22 @@
-CGGallery.Title: ГАЛЕРЕЯ CG
+CGGallery.Title: CG ГАЛЕРЕЯ
 Confirmation.No: НІ
 Confirmation.Yes: ТАК
 ControlPanel.Auto: АВТО
 ControlPanel.Hide: СХОВАТИ
 ControlPanel.Load: ЗАВАНТАЖИТИ
 ControlPanel.Log: ЖУРНАЛ
-ControlPanel.QuickLoad: ШВИДКЕ ЗАВАНТАЖЕННЯ
-ControlPanel.QuickSave: ШВИДКЕ ЗБЕРЕЖЕННЯ
+ControlPanel.QuickLoad: ШВИДКО ЗАВАНТАЖИТИ
+ControlPanel.QuickSave: ШВИДКО ЗБЕРЕГТИ
 ControlPanel.Save: ЗБЕРЕГТИ
-ControlPanel.Settings: НАЛАШТУВАННЯ
+ControlPanel.Settings: НАСТРОЙКИ
 ControlPanel.Skip: ПРОПУСТИТИ
-ControlPanel.Tips: ПОРАДИ
-ControlPanel.Title: ЗАГОЛОВОК
-ExternalScriptsBrowser.Info: Виберіть сценарій для відтворення
-ExternalScriptsBrowser.Title: ЗОВНІШНІ СЦЕНАРІЇ
+ControlPanel.Tips: ПІДКАЗКИ
+ControlPanel.Title: НАЗВА
+ExternalScriptsBrowser.Info: Виберіть скрипт для виконання
+ExternalScriptsBrowser.Title: ЗОВНІШНІ СКРИПТИ
 General.Close: ЗАКРИТИ
 General.Return: ПОВЕРНУТИСЯ
-Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: Ви впевнені, що хочете вийти на головний екран?\nУвесь незбережений прогрес буде втрачено.
+Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: Ви впевнені, що хочете вийти на екран заголовку? \nБудь-який незбережений прогрес буде втрачено.
 Naninovel.UI.GameSettingsFontDropdown.DefaultFontName: За замовчуванням
 Naninovel.UI.GameSettingsFontSizeDropdown.Default: За замовчуванням
 Naninovel.UI.GameSettingsFontSizeDropdown.ExtraLarge: Дуже великий
@@ -28,19 +28,19 @@ Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption3: Середній
 Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption4: Високий
 Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption5: Дуже високий
 Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption6: Ультра
-Naninovel.UI.GameSettingsScreenModeDropdown.ExclusiveFullScreen: Повноекранний режим
-Naninovel.UI.GameSettingsScreenModeDropdown.FullScreenWindow: Повноекранне вікно
-Naninovel.UI.GameSettingsScreenModeDropdown.MaximizedWindow: Максимізоване вікно
-Naninovel.UI.GameSettingsScreenModeDropdown.Windowed: У вікні
-Naninovel.UI.GameSettingsSkipModeDropdown.Everything: Усе
+Naninovel.UI.GameSettingsScreenModeDropdown.ExclusiveFullScreen: Повний екран
+Naninovel.UI.GameSettingsScreenModeDropdown.FullScreenWindow: Повний екран (вікно)
+Naninovel.UI.GameSettingsScreenModeDropdown.MaximizedWindow: Розгорнуте вікно
+Naninovel.UI.GameSettingsScreenModeDropdown.Windowed: Віконний режим
+Naninovel.UI.GameSettingsSkipModeDropdown.Everything: Все
 Naninovel.UI.GameSettingsSkipModeDropdown.ReadOnly: Тільки для читання
 Naninovel.UI.GameStateSlot.EmptySlotLabel: Порожньо
-Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Ви впевнені, що хочете видалити слот збереження?
-Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Ви впевнені, що хочете перезаписати слот збереження?
+Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Ви впевнені, що хочете видалити цей слот збереження?
+Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Ви впевнені, що хочете перезаписати цей слот збереження?
 SaveLoadMenu.Tab.Load: ЗАВАНТАЖИТИ
-SaveLoadMenu.Tab.QuickLoad: ШВИДКЕ ЗАВАНТАЖЕННЯ
+SaveLoadMenu.Tab.QuickLoad: ШВИДКО ЗАВАНТАЖИТИ
 SaveLoadMenu.Tab.Save: ЗБЕРЕГТИ
-SettingsMenu.AutoDelay: Автоматична затримка:
+SettingsMenu.AutoDelay: Автозатримка:
 SettingsMenu.Font: Шрифт:
 SettingsMenu.FontSize: Розмір шрифту:
 SettingsMenu.Graphics: Графіка:
@@ -51,20 +51,19 @@ SettingsMenu.PreviewText: Lorem ipsum dolor sit amet, consectetur adipiscing eli
 SettingsMenu.Resolution: Роздільна здатність:
 SettingsMenu.ScreenMode: Режим екрану:
 SettingsMenu.SkipMode: Режим пропуску:
-SettingsMenu.Tab.Basic: БАЗОВЕ
+SettingsMenu.Tab.Basic: ОСНОВНІ
 SettingsMenu.Tab.Sound: ЗВУК
 SettingsMenu.Tab.Text: ТЕКСТ
 SettingsMenu.VoiceLanguage: Мова голосу:
 SettingsMenu.VolumeEffects: Гучність ефектів:
-SettingsMenu.VolumeMaster: Загальна гучність:
+SettingsMenu.VolumeMaster: Основна гучність:
 SettingsMenu.VolumeMusic: Гучність музики:
 SettingsMenu.VolumeVoice: Гучність голосу:
-TitleMenu.CGGallery: ГАЛЕРЕЯ CG
+TitleMenu.CGGallery: CG ГАЛЕРЕЯ
 TitleMenu.Continue: ПРОДОВЖИТИ
-TitleMenu.Exit: ВИХІД
-TitleMenu.ExternalScripts: ЗОВНІШНІ СЦЕНАРІЇ
-TitleMenu.GameLable: Втекти з задніх кімнат з Чаном
+TitleMenu.Exit: ВИЙТИ
+TitleMenu.ExternalScripts: ЗОВНІШНІ СКРИПТИ
 TitleMenu.NewGame: НОВА ГРА
-TitleMenu.Settings: НАЛАШТУВАННЯ
-TitleMenu.Tips: ПОРАДИ
+TitleMenu.Settings: НАСТРОЙКИ
+TitleMenu.Tips: ПІДКАЗКИ
 VariableInput.Submit: ПІДТВЕРДИТИ
