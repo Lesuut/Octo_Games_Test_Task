@@ -1,0 +1,9 @@
+@hidePrinter wait:false
+@hideAll wait:false
+@back Map wait:false
+
+@choice handler:ButtonArea button:MapButtons/Location_ClassRoom pos:-100,200 goto:School.FormMapLocation_ClassRoom
+@choice handler:ButtonArea button:MapButtons/Location_Corridor pos:300,200 goto:School.FormMapLocation_Corridor
+@choice handler:ButtonArea button:MapButtons/Location_Home pos:-250,-120 goto:Home.FormMapLocation_Home
+
+@stop

@@ -1,7 +1,6 @@
+#FirstDialogWithAlice
 @back ClassRoom id:School
 @char Alice avatar:Alice pos:50,-10 pose:DefPose
-
-#FirstDialogWithAlice
 ...
 @char Alice avatar:Alice pos:50,-50 pose:Zoom
 Hey, who are you?
@@ -63,4 +62,22 @@ yea
 @questComplete KeyId:"MiniGame"
 Chan.Pose3: Great game!
 
+I should get the girls some kind of gift.
+@questAdd KeyId:"FindGift" Content:"Find gift for girls. It's probably in my house"
+@showUI MapButton
+
+@stop
+
+
+
+#FormMapLocation_ClassRoom
+@hideAll
+@back ClassRoom id:School
+@stop
+
+
+
+#FormMapLocation_Corridor
+@hideAll
+@back Corridor id:School
 @stop

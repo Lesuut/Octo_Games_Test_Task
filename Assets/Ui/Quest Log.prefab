@@ -254,7 +254,7 @@ MonoBehaviour:
   questTextContent: {fileID: 8568922558504922293}
   newQuestColor: {r: 1, g: 0.6616513, b: 0, a: 1}
   questCompletedColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
-  showQuestHistoryCount: 1
+  showQuestHistoryCount: 3
 --- !u!1 &7818092233323381935
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,20 @@
+#FormMapLocation_Home
+
+@back HomeMainHole id:Home
+
+@if IsQuestCompleted("FindGift")
+    There's nothing to do here.
+    @stop
+@endIf
+
+@choice "Take a gift" goto:.TakeGift
+
+@stop
+
+
+
+#TakeGift
+@addItem Gift
+@showUI InventoryButton
+@questComplete KeyId:FindGift
+@stop

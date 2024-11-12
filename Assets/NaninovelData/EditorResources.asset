@@ -178,6 +178,9 @@ MonoBehaviour:
     - name: InventoryButton
       pathPrefix: UI
       guid: c270121290980aa4380ecf41a324d467
+    - name: MapButton
+      pathPrefix: UI
+      guid: 81e07fa8d8cfd8349b00b8bcbd502644
   - Id: Scripts
     Resources:
     - name: MainStart
@@ -198,6 +201,12 @@ MonoBehaviour:
     - name: School
       pathPrefix: Scripts
       guid: 59eb3d88c341c634b83e4a3a43ea64ce
+    - name: Map
+      pathPrefix: Scripts
+      guid: ece56b84d9d27e145b7083242158812a
+    - name: Home
+      pathPrefix: Scripts
+      guid: 211a067d7039d0a4b9131aa3622edb5b
   - Id: Characters/d2be7e29-c084-4d1b-97f0-19e810fb6907
     Resources:
     - name: Default
@@ -220,6 +229,9 @@ MonoBehaviour:
     - name: MainMenu
       pathPrefix: Backgrounds/MainBackground
       guid: bc3727994349a3844aeb8ff1bf0bcbe9
+    - name: Map
+      pathPrefix: Backgrounds/MainBackground
+      guid: 86c79aefe3cd20841b2f6576ab319544
   - Id: CharacterAvatars
     Resources:
     - name: Anna
@@ -280,7 +292,7 @@ MonoBehaviour:
       guid: 99680f4d3b860b44a8269cd97957a605
   - Id: Inventory
     Resources:
-    - name: Book
+    - name: Gift
       pathPrefix: Inventory
       guid: 3006041c228b5b545a780d1c000e011b
   - Id: Backgrounds/04a62d43-7cdc-463d-afdb-4f878d3fc177
